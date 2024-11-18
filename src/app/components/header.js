@@ -7,7 +7,7 @@ const Header = () => {
       {/* Logo Section */}
       <div className="flex items-center">
         <div className="text-white font-bold text-xl sm:text-2xl flex items-center gap-2">
-         <p className="text-lg jetbrains-mono-font font-semibold text-green-200">&gt;_gambit</p>
+         <p className="text-lg jetbrains-mono-font font-semibold text-green-200">&gt;_ gambit</p>
         </div>
       </div>
 

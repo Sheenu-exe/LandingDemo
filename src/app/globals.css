@@ -32,7 +32,8 @@ body {
 }
 
 .gridBG{
-  background: url("./components/assets/background.png" )  top center no-repeat;
+  background: url("./components/assets/background.png" ) ;
+  background-size: cover;
 }
 
 .helveticaNewRoman{

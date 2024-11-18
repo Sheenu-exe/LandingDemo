@@ -12,7 +12,7 @@ const MainPage = () => {
       <Header />
        <main className="max-w-7xl flex h-[78vh] justify-center mx-auto px-4 sm:px-6 py-10 sm:py-20">
         <div className="text-center space-y-6 mb-12 sm:mb-20 flex flex-col justify-center items-center">
-          <Image className='h-[20vh] w-auto' src={Logo}/>
+          <Image className='h-[20vh] w-auto' src={Logo} alt='logo'/>
           <h1 className="text-6xl text-green-200 tracking-tighter sm:text-5xl md:text-7xl font-bold jetbrains-mono-font leading-tight">
             Start Trading <br className="hidden sm:block" />In Seconds
           </h1>
