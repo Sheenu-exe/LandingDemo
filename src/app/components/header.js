@@ -36,11 +36,14 @@ const Header = () => {
         </div>
       </div>
 
-      <button className="bg-black transition-all duration-300 ease-in-out helveticaNewRoman text-white px-3 py-2 sm:px-4 sm:py-2 rounded-full flex items-center gap-2 text-sm sm:text-base hover:bg-gradient-to-r hover:from-green-500 hover:to-green-700 hover:scale-105 hover:shadow-lg">
-        <span className="flex gap-x-1 items-center jetbrains-mono-font justify-center">
-          Connect <FaTelegramPlane />
-        </span>
-      </button>
+      <button className="bg-black text-white px-4 py-2 rounded-full flex items-center gap-2 text-sm sm:text-base transition-colors duration-300 ease-in-out hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50">
+  <span className="flex gap-x-1 jetbrains-mono-light items-center font-medium">
+    Connect <FaTelegramPlane />
+  </span>
+</button>
+
+
+
     </header>
   );
 };
