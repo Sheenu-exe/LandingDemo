@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Logo from "../components/logo.png";
-import { FaArrowCircleRight } from "react-icons/fa";
-
+import { FaTelegramPlane } from "react-icons/fa";
 const Header = () => {
   return (
     <header className="w-full px-4 sm:px-6 h-[12vh] py-3 sm:py-4 flex justify-between items-center">
@@ -19,7 +18,7 @@ const Header = () => {
       {/* Connect Wallet Button */}
       <button className="bg-black transition-all helveticaNewRoman hover:text-green-600 hover:bg-opacity-20 hover:backdrop-blur-lg text-white px-3 py-2 sm:px-4 sm:py-2 rounded-full flex items-center gap-2 text-sm sm:text-base">
         <span className="flex gap-x-1 items-center justify-center">
-          <FaArrowCircleRight /> Connect Wallet
+          Connect <FaTelegramPlane/>
         </span>
       </button>
     </header>
