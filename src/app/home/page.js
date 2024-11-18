@@ -12,12 +12,12 @@ const MainPage = () => {
       <Header />
        <main className="max-w-7xl flex h-[78vh] justify-center mx-auto px-4 sm:px-6 py-10 sm:py-20">
         <div className="text-center space-y-6 mb-12 sm:mb-20 flex flex-col justify-center items-center">
-          <Image className='h-[20vh] w-auto' src={Logo} alt='logo'/>
+          <Image className='h-[18vh] w-auto' src={Logo} alt='logo'/>
           <h1 className="text-6xl text-green-200 tracking-tighter sm:text-5xl md:text-7xl font-bold jetbrains-mono-font leading-tight">
-            Start Trading <br className="hidden sm:block" />In Seconds
+            Play The Market
           </h1>
-          <p className="text-lg  md:text-xl text-gray-300 jetbrains-mono-font tracking-tighter">
-            Connect your telegram<br className="hidden sm:block" />to start trading instantly
+          <p className="text-lg  md:text-xl text-gray-300 jetbrains-mono-font font-extralight tracking-tighter">
+          Every trade is a strategic play<br className="hidden sm:block" />Snipe the market with precision
           </p>
           
           <div className="flex justify-center bg-zinc-400/20 w-fit gap-1 sm:gap-2 mt-6 sm:mt-8 rounded-full p-1">
