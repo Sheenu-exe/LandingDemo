@@ -12,10 +12,31 @@ const MainPage = () => {
   useEffect(() => {
     // Apply lighter glitch effect with modified options
     PowerGlitch.glitch('.glitchIt', {
-      intensity: 2, // Set lower intensity for a lighter effect
-      frequency: 1, // Set lower frequency to make glitches happen less often
-      duration: 300, // Duration of the glitch (milliseconds)
-      delay: 100, // Delay between glitches
+      
+        "playMode": "always",
+        "createContainers": true,
+        "hideOverflow": false,
+        "timing": {
+          "duration": 5000
+        },
+        "glitchTimeSpan": {
+          "start": 0.34,
+          "end": 0.49
+        },
+        "shake": {
+          "velocity": 15,
+          "amplitudeX": 0.2,
+          "amplitudeY": 0.2
+        },
+        "slice": {
+          "count": 6,
+          "velocity": 15,
+          "minHeight": 0.02,
+          "maxHeight": 0.15,
+          "hueRotate": true
+        },
+        "pulse": false
+      
     });
   }, []);
 
