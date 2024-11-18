@@ -1,5 +1,4 @@
 'use client'
-
 import React, { useEffect } from 'react';
 import { FaTwitter, FaTelegramPlane } from "react-icons/fa";
 import Header from '../components/header';
@@ -11,8 +10,13 @@ import { PowerGlitch } from 'powerglitch';
 
 const MainPage = () => {
   useEffect(() => {
-    // Apply glitch effect to the element with the 'glitchIt' class
-    PowerGlitch.glitch('.glitchIt');
+    // Apply lighter glitch effect with modified options
+    PowerGlitch.glitch('.glitchIt', {
+      intensity: 2, // Set lower intensity for a lighter effect
+      frequency: 1, // Set lower frequency to make glitches happen less often
+      duration: 300, // Duration of the glitch (milliseconds)
+      delay: 100, // Delay between glitches
+    });
   }, []);
 
   return (
