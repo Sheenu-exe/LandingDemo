@@ -37,12 +37,12 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Connect Wallet Button */}
-      <button className="bg-black transition-all helveticaNewRoman hover:text-green-600 hover:bg-opacity-20 hover:backdrop-blur-lg text-white px-3 py-2 sm:px-4 sm:py-2 rounded-full flex items-center gap-2 text-sm sm:text-base">
-        <span className="flex gap-x-1 items-center jetbrains-mono-font justify-center">
-          Connect <FaTelegramPlane />
-        </span>
-      </button>
+      <button className="bg-green-700 transition-all duration-300 ease-in-out helveticaNewRoman text-white px-3 py-2 sm:px-4 sm:py-2 rounded-full flex items-center gap-2 text-sm sm:text-base hover:bg-gradient-to-r hover:from-green-500 hover:to-green-300 hover:scale-105 hover:shadow-xl hover:text-green-900">
+  <span className="flex gap-x-1 items-center jetbrains-mono-font justify-center">
+    Connect <FaTelegramPlane />
+  </span>
+</button>
+
     </header>
   );
 };

@@ -13,6 +13,10 @@ const MainPage = () => {
        <main className="max-w-7xl flex h-[78vh] justify-center mx-auto px-4 sm:px-6 py-10 sm:py-20">
         <div className="text-center space-y-6 mb-12 sm:mb-20 flex flex-col justify-center items-center">
           <Image className='h-[18vh] w-auto' src={Logo} alt='logo'/>
+          <div className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-green-500 to-green-700 px-4 py-1 text-xs sm:text-sm font-semibold text-white shadow-lg ring-2 ring-green-600/50">
+  <span className="uppercase tracking-wide">Early Access</span>
+</div>
+
           <h1 className="text-6xl text-green-200 tracking-tighter sm:text-5xl md:text-7xl font-bold jetbrains-mono-font leading-tight">
             Play The Market
           </h1>
