@@ -28,7 +28,8 @@ const Header = () => {
     <header className="w-full px-4 sm:px-6 h-[12vh] py-3 sm:py-4 flex justify-between items-center">
       {/* Logo Section */}
       <div className="flex items-center">
-        <div className="text-white font-bold text-xl sm:text-2xl flex items-center gap-2">
+        <div className=" sm:text-2xl flex items-center gap-2 text-lg jetbrains-mono-font font-light text-green-200">
+          &gt;_
           <span
             className="text-lg jetbrains-mono-font font-light text-green-200"
             ref={typedRef}
