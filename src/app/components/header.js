@@ -8,7 +8,7 @@ const Header = () => {
 
   useEffect(() => {
     const options = {
-      strings: [">_ gambit"], // Texts to type
+      strings: ["gambit"], // Texts to type
       typeSpeed: 100, // Typing speed in milliseconds
       backSpeed: 50, // Backspacing speed in milliseconds
       showCursor: true, // Show typing cursor
