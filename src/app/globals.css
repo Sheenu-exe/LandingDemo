@@ -6,6 +6,10 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/HelveticaNeueRoman.otf') format('truetype');
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,4 +22,12 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.gridBG{
+  background: url("./components/background.png" )  top center no-repeat;
+}
+
+.helveticaNewRoman{
+  font-family: 'Helvetica';
 }
