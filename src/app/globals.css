@@ -13,7 +13,7 @@
 }
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('./fonts/JetBrainsMono-Regular.ttf') format('truetype');
+  src: url('./fonts/CPMono_v07_Plain.otf') format('truetype');
 }
 
 @media (prefers-color-scheme: dark) {
